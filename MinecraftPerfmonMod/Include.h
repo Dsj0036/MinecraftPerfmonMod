@@ -1,0 +1,7 @@
+#include "stdafx.h"
+#include "integertypes.h"
+#include "PS3.h"
+#include "McButtons.h"
+#include "Dialog.h"
+#include "FieldOfView.h""
+#include "struct.h"

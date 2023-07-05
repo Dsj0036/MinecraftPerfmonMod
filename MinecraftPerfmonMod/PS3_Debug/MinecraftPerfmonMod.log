@@ -1,0 +1,78 @@
+﻿Build started 7/5/2023 6:43:04 PM.
+     1>Project "C:\Users\visual\Documents\Visual Studio 2010\Projects\MinecraftPerfmonMod\MinecraftPerfmonMod\MinecraftPerfmonMod.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         prx.cpp
+         ps3ppusnc.exe -D_DEBUG -D__CELL_ASSERT__ -D__PS3__ -DLIBNAME=cellPrx_MinecraftPerfmonMod -DSTUBNAME=cellPrx_MinecraftPerfmonMod_stub -o PS3_Debug\prx.o -c -Xdepmode=1 -MD -Xmserrors -I. -IC:/usr/local/cell\target\ppu\include -IC:/usr/local/cell\target\common\include -I"C:/usr/local/cell\host-win32\sn\ppu\include" -g -O0 -Xstd=cpp11 -Xc-=rtti --use_pch="PS3_Debug\MinecraftPerfmonMod.pch" "C:\Users\visual\Documents\Visual Studio 2010\Projects\MinecraftPerfmonMod\MinecraftPerfmonMod\prx.cpp"
+     1>.\PS3.h(267,9): warning 2623: conversion from a string literal to "char *" is deprecated
+         
+     1>.\PS3.h(606,16): warning 2520: invalid narrowing conversion from "int" to "char"
+         
+     1>.\PS3.h(633,8): warning 1070: returning pointer to local variable
+         
+     1>.\PS3.h(648,9): warning 2623: conversion from a string literal to "char *" is deprecated
+         
+     1>.\PS3.h(657,9): warning 1070: returning pointer to local variable
+         
+     1>.\PS3.h(660): warning 942: missing return statement at end of non-void function "SendRequest"
+         
+     1>.\PS3.h(667,13): warning 1628: argument of type "const char *" is incompatible with parameter (1 of SendRequest) of type "char *"
+         
+     1>.\PS3.h(675,13): warning 1628: argument of type "const char *" is incompatible with parameter (1 of SendRequest) of type "char *"
+         
+     1>.\PS3.h(682,2): warning 551: variable "FreeMemory" is used before its value is set
+         
+     1>.\PS3.h(683,16): warning 551: variable "HeapFree" is used before its value is set
+         
+     1>.\PS3.h(684,2): warning 551: variable "UsedMemory" is used before its value is set
+         
+     1>.\PS3.h(745,35): warning 552: parameter "retBuffer" was set but never used
+         
+     1>.\Include.h(6,24): warning 14: extra text after expected end of preprocessing directive
+         
+     1>.\FieldOfView.h(18,17): warning 2520: invalid narrowing conversion from "int" to "char"
+         
+     1>.\struct.h(81,6): warning 1700: class "LevelRenderer" has virtual functions but non-virtual destructor
+         
+     1>.\struct.h(136,6): warning 1700: class "MultiPlayerLevel" has virtual functions but non-virtual destructor
+         
+     1>.\struct.h(251,6): warning 1700: class "MultiplayerLocalPlayer" has virtual functions but non-virtual destructor
+         
+     1>C:\Users\visual\Documents\Visual Studio 2010\Projects\MinecraftPerfmonMod\MinecraftPerfmonMod\Dialog.h(213,6): warning 178: variable "ret" was declared but never referenced
+         
+     1>C:\Users\visual\Documents\Visual Studio 2010\Projects\MinecraftPerfmonMod\MinecraftPerfmonMod\Dialog.h(255,6): warning 552: variable "ret" was set but never used
+         
+     1>.\Include.h(6,24): warning 14: extra text after expected end of preprocessing directive
+         
+     1>.\Include.h(6,24): warning 14: extra text after expected end of preprocessing directive
+         
+     1>C:\Users\visual\Documents\Visual Studio 2010\Projects\MinecraftPerfmonMod\MinecraftPerfmonMod\Include.h(6,24): warning 14: extra text after expected end of preprocessing directive
+         
+     1>C:\Users\visual\Documents\Visual Studio 2010\Projects\MinecraftPerfmonMod\MinecraftPerfmonMod\Variables.h(44,29): warning 2520: invalid narrowing conversion from "double" to "int"
+         
+     1>C:\Users\visual\Documents\Visual Studio 2010\Projects\MinecraftPerfmonMod\MinecraftPerfmonMod\Functions.h(160,66): warning 1322: taking the address of a temporary
+         
+     1>C:\Users\visual\Documents\Visual Studio 2010\Projects\MinecraftPerfmonMod\MinecraftPerfmonMod\Functions.h(161,1): warning 942: missing return statement at end of non-void function "FJ::Font_width"
+         
+     1>C:\Users\visual\Documents\Visual Studio 2010\Projects\MinecraftPerfmonMod\MinecraftPerfmonMod\Functions.h(171,64): warning 1322: taking the address of a temporary
+         
+     1>C:\Users\visual\Documents\Visual Studio 2010\Projects\MinecraftPerfmonMod\MinecraftPerfmonMod\Functions.h(171,82): warning 1772: argument of type "float" is implicitly converted to parameter (3) of type "std::uint32_t"
+         
+     1>C:\Users\visual\Documents\Visual Studio 2010\Projects\MinecraftPerfmonMod\MinecraftPerfmonMod\Functions.h(171,85): warning 1772: argument of type "float" is implicitly converted to parameter (4) of type "std::uint32_t"
+         
+     1>C:\Users\visual\Documents\Visual Studio 2010\Projects\MinecraftPerfmonMod\MinecraftPerfmonMod\Functions.h(179,94): warning 1322: taking the address of a temporary
+         
+     1>C:\Users\visual\Documents\Visual Studio 2010\Projects\MinecraftPerfmonMod\MinecraftPerfmonMod\Functions.h(183,88): warning 1322: taking the address of a temporary
+         
+     1>C:\Users\visual\Documents\Visual Studio 2010\Projects\MinecraftPerfmonMod\MinecraftPerfmonMod\Functions.h(258,18): warning 2623: conversion from a string literal to "char *" is deprecated
+         
+     1>C:\Users\visual\Documents\Visual Studio 2010\Projects\MinecraftPerfmonMod\MinecraftPerfmonMod\perfmon.h(141,6): warning 178: variable "pos" was declared but never referenced
+         
+       Link:
+         C:\usr\local\cell\host-win32\sn\bin\ps3ppuld64.exe -oformat=fsprx -o "C:\Users\visual\Documents\Visual Studio 2010\Projects\MinecraftPerfmonMod\PS3_Debug\MinecraftPerfmonMod.sprx" -L"C:/usr/local/cell\host-win32\lib\prx\ldscripts" --start-group PS3_Debug\prx.o PS3_Debug\stdafx.o C:/usr/local/cell\target\ppu\lib\libc.a C:/usr/local/cell\target\ppu\lib\libc_stub.a "C:\Program Files (x86)\SN Systems\PS3\ppu\lib\sn\libsn.a" C:/usr/local/cell\target\ppu\lib\libm.a C:/usr/local/cell\target\ppu\lib\libio_stub.a C:/usr/local/cell\target\ppu\lib\libsysutil_stub.a C:/usr/local/cell\target\ppu\lib\libsysmodule_stub.a C:/usr/local/cell\target\ppu\lib\libsyscall.a C:/usr/local/cell\target\ppu\lib\libgcm_sys_stub.a "C:/usr/local/cell\host-win32\spu\lib\gcc\spu-lv2\4.1.1\libgcc.a" libsn.a libm.a libio_stub.a libfs_stub.a --end-group
+         MinecraftPerfmonMod.vcxproj -> C:\Users\visual\Documents\Visual Studio 2010\Projects\MinecraftPerfmonMod\PS3_Debug\MinecraftPerfmonMod.sprx
+         Moving Stub Library cellPrx_MinecraftPerfmonMod_stub.a -> C:\Users\visual\Documents\Visual Studio 2010\Projects\MinecraftPerfmonMod\PS3_Debug\
+     1>Done Building Project "C:\Users\visual\Documents\Visual Studio 2010\Projects\MinecraftPerfmonMod\MinecraftPerfmonMod\MinecraftPerfmonMod.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.62
